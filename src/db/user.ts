@@ -12,4 +12,4 @@ interface UserAttributes {
 }
 
 export interface UserInput extends Optional<UserAttributes, 'id' > {}
-export interface UserOuput extends Required<UserAttributes> {}
+
